@@ -8,7 +8,10 @@
 2. Run `yarn install`
 3. Install NestJS CLI globally `yarn global add @nestjs/cli`
 4. Run Database `docker-compose up -d`
-5. Rebuild the Database with the seed `http://localhost:3000/api/v2/seed`
+5. Clone the **.env.template** file and rename it to **.env**
+6. Fill the **.env** file with the correct values
+7. Run the application `yarn start:dev`
+8. Rebuild the Database with the seed `http://localhost:3000/api/v2/seed`
 
 ## Stack
 
