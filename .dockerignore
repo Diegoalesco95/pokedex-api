@@ -1,0 +1,13 @@
+# Compiled output
+dist/
+node_modules/
+
+# Git
+.gitignore
+.git/
+
+# OS
+.DS_Store
+
+# MongoDB data folder
+/mongo

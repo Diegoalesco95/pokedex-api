@@ -13,6 +13,11 @@
 7. Run the application `yarn start:dev`
 8. Rebuild the Database with the seed `http://localhost:3000/api/v2/seed`
 
+# Production build
+
+1. Create a **.env.prod** file with the correct values
+2. Run the new docker image `yarn docker:build`
+
 ## Stack
 
 - NestJS
